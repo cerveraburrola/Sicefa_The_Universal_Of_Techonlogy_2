@@ -1,0 +1,70 @@
+.navbar-brand img {
+    max-width: 100%;
+    width: 100px; 
+    height: auto;
+}
+
+.navbar {
+    height: auto;
+}
+
+#carouselExampleSlidesOnly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-size {
+    width: 200px; 
+    height: auto; 
+}
+
+.btn-custom {
+    background-color: white;
+    color: black;
+    font-size: 10px; 
+    padding: 5px 10px;
+}
+
+.image-size {
+    width: 100px; 
+    height: auto; 
+}
+
+.circle-icon {
+    width: 27px; 
+    height: 27px; 
+    line-height: 27px; 
+    border: 1px solid #fff;
+    border-radius: 50%; 
+    display: inline-block;
+}
+
+.circle-icon a {
+    display: inline-block; 
+    line-height: 27px; 
+}
+
+.circle-icon i {
+    font-size: 24px; 
+}
+
+.footer-link-list {
+    margin-top: 20px; /* Ajustar el margen superior para bajar los elementos */
+    padding-left: 0; /* Eliminar el padding izquierdo predeterminado de la lista */
+}
+
+.footer-link-list li {
+    margin-bottom: 10px; /* Ajustar el margen inferior para separar los elementos */
+}
+

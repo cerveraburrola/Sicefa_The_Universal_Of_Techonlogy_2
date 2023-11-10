@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../../Styles/bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="../../Styles/bootstrap-5.3.0-dist/css/bootstrap-grid.rtl.min.css" type="text/css">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>        
+    </head>
+    <body>
+        <section>
+            <br>
+            
+            <h2 style="text-align: center;">Gestion Empleado</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6" style="width: 40%">
+                    <div class="row justify-content-center">
+                        <form id="formEmpleado">
+                            <div class="col-md-10">
+                                <div class="container mt-4">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <label for="codigoEmpleado">Código Empleado:</label>
+                                            <input type="text" class="form-control" id="codigoEmpleado">
+                                            <input type="hidden" id="idRef">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="nombres">Nombres:</label>
+                                            <input type="text" class="form-control" id="nombres">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="apellido_paterno">Apellido Paterno:</label>
+                                            <input type="text" class="form-control" id="apellido_paterno">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="apellido_materno">Apellido Materno:</label>
+                                            <input type="text" class="form-control" id="apellido_materno">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-6">
+                                            <label for="genero">Género:</label>
+                                            <select class="form-control" id="genero">
+                                                <option value="Masculino">Masculino</option>
+                                                <option value="Femenino">Femenino</option>
+                                                <option value="otro">Otro</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="fecha_nacimiento">Fecha Nacimiento:</label>
+                                            <input type="date" class="form-control" id="fecha_nacimiento">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-8">
+                                            <label for="direccion">Dirección:</label>
+                                            <input type="text" class="form-control" id="direccion">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="codigo_postal">C.P.</label>
+                                            <input type="text" class="form-control" id="codigo_postal">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="numero">Numero:</label>
+                                            <input type="text" class="form-control" id="numero">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="colonia">Colonia:</label>
+                                            <input type="text" class="form-control" id="colonia">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-6">
+                                            <label for="ciudad">Ciudad:</label>
+                                            <input type="text" class="form-control" id="ciudad">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="estado">Estado:</label>
+                                            <input type="text" class="form-control" id="estado">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-12">
+                                            <label for="curp">CURP:</label>
+                                            <input type="text" class="form-control" id="curp">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="rfc">RFC:</label>
+                                            <input type="text" class="form-control" id="rfc">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-6">
+                                            <label for="fecha_ingreso">Fecha Ingreso:</label>
+                                            <input type="date" class="form-control" id="fecha_ingreso">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="telefono">Teléfono:</label>
+                                            <input type="tel" class="form-control" id="telefono">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-12">
+                                            <label for="puesto">Puesto:</label>
+                                            <input type="text" class="form-control" id="puesto">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-6">
+                                            <label for="salario_bruto_mensual">Salario Bruto Mensual:</label>
+                                            <input type="number" step="0.01" class="form-control" id="salario_bruto_mensual">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="email">Correo Electrónico:</label>
+                                            <input type="email" class="form-control" id="email">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-12">
+                                            <label for="foto">Foto:</label>
+                                            <input type="file" class="form-control" id="foto">
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <input type="checkbox" id="chkStatus" onclick="moduloEmpleado.revisarSeleccion()">Clientes inactivos
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <button class="btn btn-primary btn-md" id="clickAqui" onclick="registrar()">Registrar</button>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <button class="btn btn-secondary btn-md" onclick="limpiar()">Limpiar</button>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <button class="btn btn-warning btn-md" id="guardarEditar">Modificar</button>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <button class="btn btn-danger btn-md" id="eliminarEmpleado">Eliminar</button>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6" style="width: 45%; text-align: center;">
+                    <br>
+                    <input type="search" id="campoBusqueda" name="buscar">
+                    <button type="button" onclick="moduloEmpleado.BuscarEmpleado()">Buscar</button>
+                    <br>
+                    <br><div>
+                        <style>
+                            table {
+                                width: 500%; /* Ajusta el ancho de la tabla según tus necesidades */
+                                border-collapse: collapse; /* Para eliminar el espacio entre las celdas */
+                            }
+
+                            table,
+                            th,
+                            td {
+                                border: 1px solid black; /* Añade un borde para distinguir las celdas */
+                                padding: 2px; /* Espaciado interno de las celdas */
+                            }
+                        </style>
+                        <div class="container-fluid">
+                            <div class="d-flex gap-2 justify-content-center">
+                                <div class="table-responsive">
+                                    <table class="table table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th>Nombre</th>
+                                                <th>Apellido Paterno</th>
+                                                <th>Apellido Materno</th>
+                                                <th>Fecha de Nacimiento</th>
+                                                <th>Género</th>
+                                                <th>Calle</th>
+                                                <th>Colonia</th>
+                                                <th>Número</th>
+                                                <th>Estado</th>
+                                                <th>Ciudad</th>
+                                                <th>CP</th>
+                                                <th>CURP</th>
+                                                <th>RFC</th>
+                                                <th>Correo Electrónico</th>
+                                                <th>Teléfono</th>
+                                                <th>Puesto</th>
+                                                <th>Fecha de Ingreso</th>                                            
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tbEmpleado"></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section><br>
+        <script src="controlerEmpleado.js" type="text/javascript"></script>
+    </body>
+</html>

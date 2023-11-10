@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <br>
+        <h2 style="text-align: center;">Gestion Productos</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="nombre_generico">Nombre Generico:</label>
+                            <input type="text" class="form-control" id="nombre_generico">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="forma_farmaceutica">Forma Farmaceutica:</label>
+                            <input type="text" class="form-control" id="forma_farmaceutica">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="unidad_medida">Unidad de Medida:</label>
+                            <input type="text" class="form-control" id="unidad_medida">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="presentacion">Presentacion:</label>
+                            <input type="text" class="form-control" id="presentacion">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="principal_indicacion">Principal Indicacion:</label>
+                            <input type="text" class="form-control" id="principal_indicacion">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="contraindicaciones">Contraindicaciones:</label>
+                            <input type="text" class="form-control" id="contraindicaciones">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="concentracion">Concentracion:</label>
+                            <input type="text" class="form-control" id="concentracion">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="unidades_envase">Unidades de Envase:</label>
+                            <input type="text" class="form-control" id="unidades_envase">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="precio_unitario">Precio Unitario:</label>
+                            <input type="text" class="form-control" id="precio_unitario">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="foto">Foto:</label>
+                            <input type="text" class="form-control" id="foto">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="ruta_foto">Ruta Foto:</label>
+                            <input type="text" class="form-control" id="ruta_foto">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="estatus">Estatus:</label>
+                            <input type="number" class="form-control" id="estatus">
+                        </div>
+                    </div>
+                    <br>
+                    <ul class="list-inline" style="text-align: center;">
+                        <li>
+                            <input type="checkbox" id="clickestatus" name="buscar" onclick="moduloProductos.validarEstatus">Productos Inactivos
+                        </li>
+                        <li class="list-inline-item">
+                            <button class="btn btn-primary btn-md" id="btnAdd" onclick="moduloProductos.addProducto();">Registrar</button>
+                        </li>
+                        <li class="list-inline-item">
+                            <button type="reset" class="btn btn-secondary btn-md" id="btnClean">Limpiar</button>
+                        </li>
+                        <li class="list-inline-item">
+                            <button class="btn btn-warning btn-md" id="btnUpdate" onclick="moduloProductos.modificarProducto();">Modificar</button>
+                        </li>
+                        <li class="list-inline-item">
+                            <button class="btn btn-danger btn-md" id="btnDelete" onclick="moduloProductos.deleteProducto();">Eliminar</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-center">
+                    
+                    <br><input type="text" id="txtBusquedaProducto" name="buscar">
+                    <button type="button" onclick="moduloProductos.buscarProducto();">Buscar</button>
+                    <br>
+                    <br>
+                    <div class="container-fluid">
+                        <div class="d-flex gap-2 justify-content-center">
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>FOTO</th>
+                                            <th>NOMBRE</th>
+                                            <th>NOMBRE GENERICO</th>
+                                            <th>FORMA FARMACEUTICA</th>
+                                            <th>UNIDAD DE MEDIDA</th>
+                                            <th>PRESENTACION</th>
+                                            <th>PRINCIPAL INDICACION</th>
+                                            <th>CONTRAINDICACIONES</th>
+                                            <th>CONCENTRACION</th>
+                                            <th>UNIDADES EN ENVASE</th>
+                                            <th>PRECIO UNITARIO</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbProductos">
+                                        <!-- ... (filas de la tabla) ... -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <script src="js/mainProductos.js" type="text/javascript"></script>
+    <script src="controladorProductos.js" type="text/javascript"></script>
+    <script src="controlerCliente.js" type="text/javascript"></script>
+</body>
+</html>

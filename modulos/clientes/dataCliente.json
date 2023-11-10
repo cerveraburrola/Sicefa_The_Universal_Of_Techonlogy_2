@@ -1,0 +1,232 @@
+[
+    {
+        "folio": "JG20230720",
+        "estatus": 1,
+        "persona": {
+            "nombre": "Juan",
+            "apellido_paterno": "García",
+            "apellido_materno": "López",
+            "genero": 2,
+            "fecha_nacimiento": "1990-05-15",
+            "direccion": "Calle Falsa #123",
+            "codigo_postal": "12345",
+            "ciudad": "Ciudad Ficticia",
+            "estado": "Estado Ficticio",
+            "curp": "GALJ900515HDFXXX",
+            "rfc": "GALJ900515XXX",
+            "telefono": "555-123-4567",
+            "correo_electronico": "juan.garcia@example.com",
+            "id_persona": 1
+        },
+        "foto" : "",
+        "fecha_registro": "2023-07-20"
+    },
+
+    {
+        "folio": "MH20230719",
+        "estatus": 1,
+        "persona": {
+            "nombre": "María",
+            "apellido_paterno": "Hernández",
+            "apellido_materno": "Gómez",
+            "genero": 1,
+            "fecha_nacimiento": "1988-10-25",
+            "direccion": "Avenida Principal #456",
+            "codigo_postal": "54321",
+            "ciudad": "Otra Ciudad",
+            "estado": "Estado Imaginario",
+            "curp": "HEMG881025MEXYYY",
+            "rfc": "HEMG881025YYY",
+            "telefono": "555-987-6543",
+            "correo_electronico": "maria.hernandez@example.com",
+            "id_persona": 2
+        },
+        "foto" : "",
+        "fecha_registro": "2023-07-19"
+    },
+
+    {
+        "folio": "PM20230718",
+        "estatus": 1,
+        "persona": {
+            "nombre": "Pedro",
+            "apellido_paterno": "Martínez",
+            "apellido_materno": "Ramírez",
+            "genero": 2,
+            "fecha_nacimiento": "1995-03-12",
+            "direccion": "Calle Ficticia #789",
+            "codigo_postal": "98765",
+            "ciudad": "Ciudad Falsa",
+            "estado": "Estado Imaginado",
+            "curp": "MARP950312MEXZZZ",
+            "rfc": "MARP950312ZZZ",
+            "telefono": "555-789-0123",
+            "correo_electronico": "pedro.martinez@example.com",
+            "id_persona": 3
+        },
+        "foto" : "",
+        "fecha_registro": "2023-07-18"
+    },
+
+    {
+        "folio": "AL20230717",
+        "estatus": 1,
+        "persona": {
+            "nombre": "Ana",
+            "apellido_paterno": "López",
+            "apellido_materno": "Sánchez",
+            "genero": 1,
+            "fecha_nacimiento": "1985-12-08",
+            "direccion": "Avenida Imaginaria #246",
+            "codigo_postal": "67890",
+            "ciudad": "Ciudad Irreal",
+            "estado": "Estado Inexistente",
+            "curp": "LOSA851208MEXWWW",
+            "rfc": "LOSA851208WWW",
+            "telefono": "555-456-7890",
+            "correo_electronico": "ana.lopez@example.com",
+            "id_persona": 4
+        },
+        "foto" : "",
+        "fecha_registro": "2023-07-17"
+    },
+
+    {
+        "folio": "JR20230716",
+        "estatus": 1,
+        "persona": {
+            "nombre": "José",
+            "apellido_paterno": "Rodríguez",
+            "apellido_materno": "Flores",
+            "genero": 2,
+            "fecha_nacimiento": "1992-07-30",
+            "direccion": "Calle Irreal #135",
+            "codigo_postal": "45678",
+            "ciudad": "Otra Ciudad Falsa",
+            "estado": "Estado Inexistente",
+            "curp": "ROFJ920730MEXVVV",
+            "rfc": "ROFJ920730VVV",
+            "telefono": "555-321-0987",
+            "correo_electronico": "jose.rodriguez@example.com",
+            "id_persona": 5
+        },
+        "foto" : "",
+        "fecha_registro": "2023-07-16"
+    },
+
+    {
+        "folio": "LG20230715",
+        "estatus": 0,
+        "persona": {
+            "nombre": "Laura",
+            "apellido_paterno": "Gómez",
+            "apellido_materno": "Pérez",
+            "genero": 1,
+            "fecha_nacimiento": "1980-04-18",
+            "direccion": "Avenida Inexistente #975",
+            "codigo_postal": "56789",
+            "ciudad": "Ciudad Irreal",
+            "estado": "Estado Ficticio",
+            "curp": "GOPL800418MEXUUU",
+            "rfc": "GOPL800418UUU",
+            "telefono": "555-654-3210",
+            "correo_electronico": "laura.gomez@example.com",
+            "id_persona": 6
+        },
+        "foto" : "",
+        "fecha_registro": "2023-07-15"
+    },
+
+    {
+        "folio": "CS20230715",
+        "estatus": 0,
+        "persona": {
+            "nombre": "Carlos",
+            "apellido_paterno": "Sánchez",
+            "apellido_materno": "Ramírez",
+            "genero": 2,
+            "fecha_nacimiento": "1991-09-22",
+            "direccion": "Calle Falsa #753",
+            "codigo_postal": "87654",
+            "ciudad": "Otra Ciudad Imaginaria",
+            "estado": "Estado Inexistente",
+            "curp": "SARC910922MEXTTT",
+            "rfc": "SARC910922TTT",
+            "telefono": "555-890-1234",
+            "correo_electronico": "carlos.sanchez@example.com",
+            "id_persona": 7
+        },
+        "foto" : "",
+        "fecha_registro": "2023-07-15"
+    },
+
+    {
+        "folio": "PG20230713",
+        "estatus": 0,
+        "persona": {
+            "nombre": "Patricia",
+            "apellido_paterno": "González",
+            "apellido_materno": "Hernández",
+            "genero": 1,
+            "fecha_nacimiento": "1987-11-05",
+            "direccion": "Avenida Imaginaria #369",
+            "codigo_postal": "43210",
+            "ciudad": "Ciudad Irreal",
+            "estado": "Estado Inexistente",
+            "curp": "GOHP871105MEXQQQ",
+            "rfc": "GOHP871105QQQ",
+            "telefono": "555-012-3456",
+            "correo_electronico": "patricia.gonzalez@example.com",
+            "id_persona": 8
+        },
+        "foto" : "",
+        "fecha_registro": "2023-07-13"
+    },
+
+    {
+        "folio": "MT20230712",
+        "estatus": 0,
+        "persona": {
+            "nombre": "Miguel",
+            "apellido_paterno": "Torres",
+            "apellido_materno": "López",
+            "genero": 2,
+            "fecha_nacimiento": "1993-06-10",
+            "direccion": "Calle Ficticia #246",
+            "codigo_postal": "98765",
+            "ciudad": "Ciudad Irreal",
+            "estado": "Estado Imaginado",
+            "curp": "TOLM930610MEXPPP",
+            "rfc": "TOLM930610PPP",
+            "telefono": "555-987-6543",
+            "correo_electronico": "miguel.torres@example.com",
+            "id_persona": 9
+        },
+        "foto" : "",
+        "fecha_registro": "2023-07-12"
+    },
+
+    {
+        "folio": "SR20230711",
+        "estatus": 0,
+        "persona": {
+            "nombre": "Sofía",
+            "apellido_paterno": "Ramírez",
+            "apellido_materno": "Gómez",
+            "genero": 1,
+            "fecha_nacimiento": "1989-12-30",
+            "direccion": "Avenida Imaginaria #975",
+            "codigo_postal": "12345",
+            "ciudad": "Ciudad Falsa",
+            "estado": "Estado Inexistente",
+            "curp": "RAGS891230MEXNNN",
+            "rfc": "RAGS891230NNN",
+            "telefono": "555-654-3210",
+            "correo_electronico": "sofia.ramirez@example.com",
+            "id_persona": 10
+        },
+        "foto" : "",
+        "fecha_registro": "2023-07-11"
+    }
+]
+

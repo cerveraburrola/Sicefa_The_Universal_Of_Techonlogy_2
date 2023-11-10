@@ -1,0 +1,8 @@
+/* styles.css (No es necesario si ya tienes vinculado Bootstrap) */
+.img-fluid {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Para mantener la proporción de la imagen */
+    display: block; /* Evita espacios debajo de la imagen */
+}
+
+

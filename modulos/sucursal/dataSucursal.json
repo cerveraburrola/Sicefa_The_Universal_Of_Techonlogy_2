@@ -1,0 +1,150 @@
+[
+    {
+        "nom_sucursal": "Centro max",
+        "nom_dueño": "Jose Cervera",
+        "rfc_titular": "ABC 680524 P-76",
+        "calle": "canario",
+        "colonia": "San sebastian",
+        "estado": "gto",
+        "ciudad": "Leon",
+        "longitud": "10",
+        "latutud": "30",
+        "cod_postal": "3745",
+        "telefono": "4777124909",
+        "estatus": 0
+    },
+    {
+        "nom_sucursal": "Centro max",
+        "nom_dueño": "Angel Nava",
+        "rfc_titular": "Atc 680524 P-76",
+        "calle": "Gorrion",
+        "colonia": "San sebastian",
+        "estado": "gto",
+        "ciudad": "Leon",
+        "longitud": "10",
+        "latutud": "30",
+        "cod_postal": "3755",
+        "telefono": "4773424909",
+        "estatus": 1
+    },
+    {
+
+        "nom_sucursal": "Centro max",
+        "nom_dueño": "Carlos Lopez",
+        "rfc_titular": "TRR 680524 P-76",
+        "calle": "canario",
+        "colonia": "San sebastian",
+        "estado": "gto",
+        "ciudad": "Leon",
+        "longitud": "10",
+        "latutud": "30",
+        "cod_postal": "3745",
+        "telefono": "4745724909",
+        "estatus": 1
+    },
+    {
+
+        "nom_sucursal": "Centro max",
+        "nom_dueño": "Erik Estrada",
+        "rfc_titular": "WRT 560524 H-56",
+        "calle": "canario",
+        "colonia": "San sebastian",
+        "estado": "gto",
+        "ciudad": "Leon",
+        "longitud": "10",
+        "latutud": "30",
+        "cod_postal": "3737",
+        "telefono": "4765724909",
+        "estatus": 0
+    },
+    {
+
+        "nom_sucursal": "Centro max",
+        "nom_dueño": "Diego Landin",
+        "rfc_titular": "RRR 580524 P-56",
+        "calle": "canario",
+        "colonia": "San sebastian",
+        "estado": "gto",
+        "ciudad": "Leon",
+        "longitud": "10",
+        "latutud": "30",
+        "cod_postal": "3756",
+        "telefono": "4777124569",
+        "estatus": 1
+    },
+    {
+
+        "nom_sucursal": "Centro max",
+        "nom_dueño": "Andres Patlan",
+        "rfc_titular": "BCA 790524 P-76",
+        "calle": "canario",
+        "colonia": "San sebastian",
+        "estado": "gto",
+        "ciudad": "Leon",
+        "longitud": "10",
+        "latutud": "30",
+        "cod_postal": "3455",
+        "telefono": "4777126789",
+        "estatus": 0
+    },
+    {
+
+        "nom_sucursal": "Centro max",
+        "nom_dueño": "Angel Perez",
+        "rfc_titular": "RTR 780524 O-76",
+        "calle": "canario",
+        "colonia": "San sebastian",
+        "estado": "gto",
+        "ciudad": "Leon",
+        "longitud": "10",
+        "latutud": "30",
+        "cod_postal": "6745",
+        "telefono": "4777124987",
+        "estatus": 1
+    },
+    {
+
+        "nom_sucursal": "Centro max",
+        "nom_dueño": "Abigail Cortes",
+        "rfc_titular": "TRK 680524 P-76",
+        "calle": "canario",
+        "colonia": "San sebastian",
+        "estado": "gto",
+        "ciudad": "Leon",
+        "longitud": "10",
+        "latutud": "30",
+        "cod_postal": "4745",
+        "telefono": "4777454909",
+        "estatus": 1
+    },
+    {
+
+        "nom_sucursal": "Centro max",
+        "nom_dueño": "Humberto Martinez",
+        "rfc_titular": "RTY 680524 P-76",
+        "calle": "canario",
+        "colonia": "San sebastian",
+        "estado": "gto",
+        "ciudad": "Leon",
+        "longitud": "10",
+        "latutud": "30",
+        "cod_postal": "4745",
+        "telefono": "4777126709",
+        "estatus": 0
+    },
+    {
+
+        "nom_sucursal": "Centro max",
+        "nom_dueño": "Diego Marquz",
+        "rfc_titular": "QRT 680524 P-76",
+        "calle": "canario",
+        "colonia": "San sebastian",
+        "estado": "gto",
+        "ciudad": "Leon",
+        "longitud": "10",
+        "latutud": "30",
+        "cod_postal": "36785",
+        "telefono": "4777124987",
+        "estatus": 0
+    }
+]
